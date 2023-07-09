@@ -59,6 +59,7 @@ body {
 /* end top section style  */
 
 .main_container {
+    width: 1600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,8 +85,12 @@ body {
 }
 
 .main_con1{
+    width: 1600px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    
 }
 
 .my_fail_head {
