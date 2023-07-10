@@ -5,8 +5,10 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    
+
 }
+
+/* star header section  */
 
 .top_container {
     width: 1600px;
@@ -59,6 +61,8 @@ body {
 }
 
 /* end top section style  */
+
+/* stat main section  */
 
 .main_container {
     width: 1600px;
@@ -120,7 +124,6 @@ body {
     padding-left: 30px;
 }
 
-/* end my failurs section  */
 
 .my_plans {
     color: #151414;
@@ -212,5 +215,87 @@ body {
     height: 64px;
     border-radius: 5px;
     border-style: none;
+}
+
+/* end main section  */
+
+/* star footer section  */
+
+.future_footer {
+    color: white;
+    margin-top: 100px;
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: #151414;
+    text-align: left;
+}
+
+.future_head {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.future_des {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+}
+
+.future p {
+    padding: 10px 0px 10px 0px;
+}
+
+.social_icon img {
+    display: inline-block;
+    padding: 10px;
+}
+
+.subscribe_title {
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.email_subs {
+    display: block;
+    width: 325px;
+    height: 65px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin: 15px 0 15px 0;
 
 }
+
+.subscribe, .future {
+    text-align: left;
+    padding-top: 150px;
+}
+
+.subscribe_btn{
+    color: #F15B22;
+    background: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.email_subs{
+    background-color: #151414;
+    color: white;
+}
+
+/* end footer section  */
